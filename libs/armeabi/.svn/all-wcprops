@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pd_gis/!svn/ver/24/WoodsDemo/libs/armeabi
+END
+liblocSDK3.so
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pd_gis/!svn/ver/24/WoodsDemo/libs/armeabi/liblocSDK3.so
+END
+libBaiduMapSDK_v2_1_3.so
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pd_gis/!svn/ver/24/WoodsDemo/libs/armeabi/libBaiduMapSDK_v2_1_3.so
+END
+libBaiduMapVOS_v2_1_3.so
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pd_gis/!svn/ver/24/WoodsDemo/libs/armeabi/libBaiduMapVOS_v2_1_3.so
+END

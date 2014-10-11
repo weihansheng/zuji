@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的足迹</string>
+     <!-- xListview -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="delete">删除</string>
+    <string name="walk">步行</string>
+    <string name="car">汽车</string>
+    <string name="bike">自行车</string>
+    <string name="none_drafts">暂无轨迹</string>
+    
+    <!-- 设置 -->
+    <string name="share">分 享</string>
+    <string name="setting">设   置</string>
+    <string name="about">关于</string>
+    <string name="playroute">播放轨迹</string>
+    <string name="addroute">记录轨迹</string>
+    <string name="opinion_feedback">意见反馈</string>
+    <string name="update">检测更新</string>
+    <string name="auto_update">自动更新</string>
+    <string name="cleanCache">清除缓存</string>
+    <string name="back">返回</string>
+    <string name="opinion_feedback_hint">请填写您的宝贵意见（150字以内）...</string>
+    <string name="error_opinion_null">意见不能为空</string>
+    <string name="error_opinion_tolong">意见不能超过150字!</string>
+    <string name="submit">提交</string>
+    <string name="submit">提交</string>
+    <string name="version">v1.0</string>
+    <string name="develop_team">开发团队</string>
+    <string name="team">zzuli创新团队</string>
+    <string name="exit">退出</string>
+    <string name="cancel">取消</string>
+    <string name="exit_title">下次记得再回来</string>
+</resources>

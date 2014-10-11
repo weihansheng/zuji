@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hsv"
+    android:layout_width="wrap_content"
+    android:layout_height="85dp"
+    android:background="@drawable/listview_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <com.project.zuji.xlistview.RoundedImageView
+                    android:id="@+id/list_item_img"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="3dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/menu_background" />
+
+
+                    <TextView
+                        android:id="@+id/list_item_tripMethod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:ellipsize="middle"
+                        android:singleLine="true"
+                        android:text="步行"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/micro_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/list_item_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:text="0.5"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/micro_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:text="km"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/micro_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:text="时间："
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/large_text_size" />
+
+                    <TextView
+                        android:id="@+id/list_item_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:text="2004-05-12"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/large_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:text="平均速度："
+                        android:textColor="@color/light_black"
+                        android:textSize="@dimen/medium_text_size" />
+
+                    <TextView
+                        android:id="@+id/list_item_aveSpeed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:text="0.5"
+                        android:textColor="@color/light_black"
+                        android:textSize="@dimen/medium_text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:text="km/h"
+                        android:textColor="@color/light_black"
+                        android:textSize="@dimen/medium_text_size" />
+
+                    <TextView
+                        android:id="@+id/list_item_lineStr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:text="耗时："
+                        android:textColor="@color/light_black"
+                        android:textSize="@dimen/medium_text_size" />
+
+                    <TextView
+                        android:id="@+id/list_item_runTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:text="55秒"
+                        android:textColor="@color/light_black"
+                        android:textSize="@dimen/medium_text_size" />
+
+                    <TextView
+                        android:id="@+id/list_item_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_action"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:background="@drawable/delete_btn_selector"
+                android:focusable="false"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="@string/delete"
+                android:textColor="@color/white"
+                android:textSize="@dimen/medium_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</HorizontalScrollView>

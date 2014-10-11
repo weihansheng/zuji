@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/ignored_view2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/empty_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/webview_load_default" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/none_drafts"
+            android:textColor="@color/light_black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <com.project.zuji.xlistview.XListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:choiceMode="singleChoice"
+            android:divider="@color/toolbox_line"
+            android:dividerHeight="0.5dp"
+            android:drawSelectorOnTop="true"
+            android:focusable="false"
+            android:gravity="center"
+            android:listSelector="#000000"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</FrameLayout>

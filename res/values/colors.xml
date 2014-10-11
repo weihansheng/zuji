@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tools_box_bg">#ff333332</color>
+    <color name="text_white_shadow_color">#ff5a9487</color>
+    <color name="text_black_normal">#ae000000</color>
+    <color name="gray">#e3e3e3</color>
+    <color name="toolbox_line">#9fb9b9b9</color>
+    <color name="light_green">#d2edb0</color>
+    <color name="green">#99d64b</color>
+    <color name="blue">#40a3ff</color>
+    <color name="deep_blue">#3589D6</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    
+   	<color name="white">#ffffff</color><!--白色 -->
+    <color name="black">#4e4e4e</color> <!--黑 -->
+    <color name="deep_black">#5A5A5A</color> <!--深黑 -->
+    <color name="light_black">#999999</color> <!--浅黑 -->
+   	<color name="light_blue">#26aeec</color> <!--浅蓝色-->
+    <color name="transparent">#00000000</color><!--透明  -->
+    <color name="light_gray">#777f83</color> <!--浅灰色 -->
+    <color name="bj">#f0f0f0</color> <!--背景色 -->
+    <color name="btntextcolor">#ff1E90FF</color><!--dialog中按钮字体颜色 -->
+    
+    <color name="blue_pressed">@color/holo_blue_dark</color>
+    <color name="blue_normal">@color/holo_blue_light</color>
+    <color name="green_complete">@color/holo_green_light</color>
+    <color name="purple_progress">@color/holo_purple</color>
+    
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_bright">#ff4d4dff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    
+    
+    <color name="custom">#ff0099CC</color>
+    <color name="sticky">#ffffcd5a</color>
+    <color name="alert">#CC0000</color>
+    <color name="confirm">#FF8800</color>
+
+    
+    <color name="success">#82dac0</color>
+    <color name="info">#7db5e7</color>
+    <color name="error">#d47878</color>
+</resources>
